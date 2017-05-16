@@ -1,0 +1,36 @@
+{
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        120
+    ],
+    "editor.wordWrap": "on",
+    "editor.codeLens": true,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+        "xml": {
+            "attr_quotes": "double"
+        }
+    },
+    "explorer.openEditors.visible": 0,
+    "extensions.autoUpdate": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+    "path-intellisense.extensionOnImport": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    "javascript.implicitProjectConfig.checkJs": true
+}
