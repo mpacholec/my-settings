@@ -1,24 +1,22 @@
 {
+    "css.validate": false,
     "editor.cursorBlinking": "phase",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontSize": 12,
-    "editor.formatOnPaste": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "all",
-    "editor.rulers": [
-        120
-    ],
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "none",
     "editor.wordWrap": "on",
-    "editor.codeLens": true,
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx",
-        "xml": {
-            "attr_quotes": "double"
-        }
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
     },
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": false,
     "explorer.openEditors.visible": 0,
     "extensions.autoUpdate": true,
+    "files.associations": {
+        "*.js": "javascriptreact",
+        ".gitignore": "gitconfig"
+    },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": true,
@@ -26,11 +24,40 @@
         "**/.hg": true,
         "**/.DS_Store": true
     },
-    "path-intellisense.extensionOnImport": false,
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    "javascript.validate.enable": false,
+    "scss.validate": false,
+    "sync.askGistName": false,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+    "sync.gist": "339bca3bd731c09f4f0db79f70ab17f9",
+    "sync.host": "",
+    "sync.lastDownload": "2017-11-07T20:39:17.381Z",
+    "sync.lastUpload": "2018-07-30T06:38:35.763Z",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressNoRepositoryWarning": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true
+    },
+    "javascript.format.enable": false,
+    "git.autofetch": true,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "editor.fontSize": 12,
+    "editor.minimap.enabled": false,
+    "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+    "terminal.integrated.cursorBlinking": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "eslint.packageManager": "yarn",
+    "editor.tabSize": 2,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
     "workbench.iconTheme": "vscode-icons",
-    "javascript.implicitProjectConfig.checkJs": true
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Night Owl"
 }
